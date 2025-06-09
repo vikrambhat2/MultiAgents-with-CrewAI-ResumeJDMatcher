@@ -31,11 +31,11 @@ def extract_text_from_pdf(uploaded_file):
     return text.strip()
 
 # ------------------- Agents -------------------
-from ResumeEnhancerAgent import ResumeEnhancerAgent
-from ResumeParsingAgent import ResumeParsingAgent
-from JDUnderstandingAgent import JDUnderstandingAgent
-from MatchingAgent import MatchingAgent
-from CoverLetterAgent import CoverLetterAgent
+from CrewaiAgents.ResumeEnhancerAgent import ResumeEnhancerAgent
+from CrewaiAgents.ResumeParsingAgent import ResumeParsingAgent
+from CrewaiAgents.JDUnderstandingAgent import JDUnderstandingAgent
+from CrewaiAgents.MatchingAgent import MatchingAgent
+from CrewaiAgents.CoverLetterAgent import CoverLetterAgent
 # ------------------- Streamlit UI -------------------
 
 st.set_page_config(page_title="🧠 Resume-JD Matcher", layout="wide")
