@@ -81,16 +81,16 @@ streamlit run ResumeJDMatchApp.py
 Upload or paste your resume and job description.
 
 Choose an action:
-🚀 Run Matching — to evaluate alignment.
-📝 Enhance Resume — to get resume improvement tips.
-✉️ Generate Cover Letter — to generate a personalized cover letter.
+-  🚀 Run Matching — to evaluate alignment.
+-  📝 Enhance Resume — to get resume improvement tips.
+- ✉️ Generate Cover Letter — to generate a personalized cover letter.
 
 Results will be displayed below the buttons.
 
 ### 📦 Outputs
-✅ Match Report
-🔧 Resume Enhancement Suggestions
-💌 Generated Cover Letter
+- ✅ Match Report
+- 🔧 Resume Enhancement Suggestions
+- 💌 Generated Cover Letter
 
 ### 🙌 Acknowledgments
 Built using CrewAI, Streamlit, and Ollama.
