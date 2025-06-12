@@ -1,4 +1,4 @@
-
+import json
 from crewai import Agent, Task
 class JDUnderstandingAgent(Agent):
     def __init__(self, llm):

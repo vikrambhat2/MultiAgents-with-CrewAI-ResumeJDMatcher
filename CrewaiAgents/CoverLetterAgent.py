@@ -1,4 +1,5 @@
 from crewai import Agent, Task
+import json
 class CoverLetterAgent(Agent):
     def __init__(self, llm):
         super().__init__(
